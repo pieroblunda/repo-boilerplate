@@ -1,0 +1,14 @@
+name: Create Build
+run-name: ${{ github.actor }} New Create Release
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+      - 'build-*' # Push events to matching build-
+
+jobs:
+  build:
+    name: Create Build
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
