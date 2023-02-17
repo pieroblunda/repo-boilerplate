@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
+title: 'Sono un title di markdown'
+labels: 'bug'
 assignees: ''
 
 ---
