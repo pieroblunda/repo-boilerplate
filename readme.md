@@ -40,3 +40,8 @@ Allow squash merging - false
 Allor rebase merging - false
 Automatically delete head brances - true
 Always suggest updating PR branches - true 
+
+
+
+Run tests
+https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
